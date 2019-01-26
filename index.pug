@@ -1,0 +1,17 @@
+doctype html
+
+title 今日の日付のScrapboxに追記するフォーム
+
+h1 今日の日付のScrapboxに追記するフォーム
+
+form
+  label ScrapboxのURL
+  input#url(type='text' required placeholder='https://scrapbox.io/sKplayground/')
+  label 追記すること
+  input#text(type='text' required placeholder='test')
+  input#submit(type='button' value='追記する')
+
+h4 開くURL
+p#openUrl
+
+script(src="app.js")
